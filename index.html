@@ -1,0 +1,69 @@
+
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <title>Stamp - Thesis Code Challenge</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" href="./img/favicon.png" />
+        <link href="./css/style.css" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <div class="background-layer"></div>
+        <header role="banner">
+            <picture class="logo">
+                <a href="#"><img src="./img/logo.png" alt="Stamp Logo"></a>
+            </picture>
+            <nav role="navigation">
+                <div class="open-menu menu-hamburger pointer">
+                  <image src="./img/hamburger-menu.png" xlink:href="">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <i class="close-menu pointer">x</i>
+            </nav>
+        </header>
+        <main role="main">
+            <section class="content">
+                <h1>Simple Way to Organize Your Inspirations</h1>
+                <p id="motivation">I think what motivates people is not great hate,<br/> but great love for other people.</p>
+            </section>
+            <section class="form-container">
+                <h2>Sign Up For Free</h2>
+                <form action="" id="input-form">
+                    <div class="inputgroup">
+                      <input type="text" name="full_name" id="full_name" placeholder="Name" required="required">
+                      <input type="email" name="email" id="email" placeholder="Email" required="required">
+                      <input class="password-field" type="password" name="password" id="password" placeholder="Password" required="required">
+                      <div class="placement pointer">
+                        <i class="show-password"><img src="./img/hide-password.png" id="password1" alt="show passowrd icon"/></i>
+                        <i class="hide-password"><img src="./img/show-password.png" id="password2" alt="hide password icon"/></i>
+                      </div>
+                    </div>
+                    <input class="button" type="submit" id="submit_button" value="Sign up >" disabled="disabled">
+                </form>
+                <small>
+                    By clicking "Sign up", I agree to our
+                    <br>
+                    <a href="#">Terms of Service</a>.
+                </small>
+            </section>
+        </main>
+        <footer role="footer-content">
+            <p>&copy;2018 Stamp. All Rights Reserved.</p>
+            <div>
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </footer>
+    </body>
+</html>

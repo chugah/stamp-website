@@ -1,0 +1,55 @@
+Thesis Code Challenge
+
+The web page is built using only HTML5, CSS3, jQuery, and JavaScript. jQuery
+used to keep the syntax cleaner. 
+
+Note the sketch file included with this assignment provides the required
+images:  logo, hamburger menu, and background image. The Roboto folder provides
+the font-family types.
+
+Regarding the form, validation is included for the email and password fields.
+The icon in the password field toggles to reveal its contents.
+
+When the sign up button is clicked, the name, email, and password are passed
+through the URL giving the illusion this information is being sent to the
+backend.
+
+The design also hid the hamburger menu until an observed screen width. This
+approach departs from the design which shows the hamburger menu icon. When the
+hamburger icon appears, it toggles to show the main navigation options.
+
+Website tests only performed on Chrome, Firefox, and Safari. No tests performed
+on IE or Edge.
+
+To view the website, clone this repository and open the index html file in one
+of the browsers tested.
+
+Instructions for the Challenge
+
+The objective of this code challenge is to build a HTML web page that resembles
+the Stamp landing page as shown in the pdf design provided.
+
+No frontend/backend frameworks/libraries like bootstrap, font awesome, react,
+angular, etc. are used.
+
+Links on the main navigation and footer navigation don’t point anywhere. The
+form does not submit but is styled based on the design provided.
+
+It is left to the developer's discretion on how to implement the hamburger menu.
+
+More attention is paid to the following features:
+
+- Responsive design (check how it looks on mobile devices/smaller screens)
+- Page load time
+- Various elements states (hover, focus, etc.)
+
+Less attention is paid to the following features:
+
+- Getting the exact font face icons, photos, images, or illustrations
+- Content:  feel free to use dummy content
+
+Extra Credit:
+
+- If you notice any flaw in the attached design, point it out and explain it
+
+/* https://online.photoscissors.com & https://photopea.com for image manipulation */
