@@ -1,7 +1,8 @@
 Thesis Code Challenge
 
-The web page is built using only HTML5, CSS3, jQuery, and JavaScript. jQuery
-used to keep the syntax cleaner. 
+The web page is built using only HTML5, CSS3, jQuery, and JavaScript. The CSS
+and JS files are not minified because they are not substantial in size and
+to keep the code readable for review purposes. 
 
 Note the sketch file included with this assignment provides the required
 images:  logo, hamburger menu, and background image. The Roboto folder provides
